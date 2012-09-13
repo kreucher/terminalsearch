@@ -1,0 +1,21 @@
+Terminal Profiles Search Provider for Gnome Shell
+-------------------------------------------------
+
+This extension adds a search provider to Gnome Shell's universal search that
+provides results of Gnome Terminal's profiles. You can use this to quickly
+launch specific Terminal profiles.
+
+MANUAL INSTALLATION
+1) Copy contents to $HOME/.local/share/gnome-shell/extensions
+      - create subdirectory: terminalsearch@kreucher.google.com
+2) Restart Gnome-Shell (Alt-F2, r)
+3) Turn extension on using gnome-tweak-tool
+
+CAVEATS / KNOWN ISSUES
+* The list of possible profile are loaded when the extension is enabled, so
+  if you add a terminal profile, disable and re-enable it so it is picked up.
+  This can quickly be done via gnome-tweak-tool.
+
+QUESTIONS / COMMENTS
+See http://code.google.com/p/terminalsearch/
+

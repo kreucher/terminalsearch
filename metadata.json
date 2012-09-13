@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.4"],
+    "uuid": "terminalsearch@kreucher.google.com",
+    "name": "Terminal Profiles Search Provider",
+    "description": "Searches gnome-terminal profiles for quick launching.",
+    "url" : "http://code.google.com/p/terminalsearch/"
+}
